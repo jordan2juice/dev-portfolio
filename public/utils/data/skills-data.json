@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "description": "Hypertext Markup Language",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "description": "Cascading Style Sheets",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "description": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "description": "React",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+  },
+  {
+    "id": 5,
+    "name": "Bootstrap",
+    "description": "Bootstrap",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+  },
+  {
+    "id": 6,
+    "name": "Node.js",
+    "description": "Node.js",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+  },
+  {
+    "id": 7,
+    "name": "Git",
+    "description": "Git",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png"
+  },
+  {
+    "id": 8,
+    "name": "GitHub",
+    "description": "GitHub",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/GitHub-logo.svg/1200px-GitHub-logo.svg.png"
+  }
+]
