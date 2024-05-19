@@ -6,9 +6,10 @@ import AboutMe from "./components/about-me/page";
 import HeroSection from "./components/hero-section/page";
 import Experience from "./components/experience/page";
 import Skills from "./components/skills/page";
-import Projects from "./components/projects/page";
+
 import Footer from "./components/footer/page";
 import Education from "./components/education/page";
+import Projects from "./components/projects/projects";
 
 export default function Home() {
   return (

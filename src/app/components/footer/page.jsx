@@ -1,32 +1,38 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
 export default function Footer() {
   return (
     <div>
-      <>
-        <p>Copyright &copy; 2023 Jordan Toujouse</p>
-        <p>All rights reserved</p>
-        <p>
-          <a
-            href="https://github.com/JordanToujouse"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://www.linkedin.com/in/jordan-toujouse/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-        </p>
-      </>
+      <Footer
+        className="bg-gray-800 text-white p-4 flex justify-between items-center"
+       >
+        <div>
+          <nav
+            className="flex justify-between items-center"
+            >
+            <Link href={"/"}>
+              Home
+            </Link>
+            <Link href={"/about"}>
+              About
+            </Link>
+            <Link href={"/projects"}>
+              Projects
+            </Link>
+            <Link href={"/contact"}>
+              Contact
+            </Link>
+          </nav>
+        </div>
+        <div>
+          <Link href="https://github.com/JordanToujouse">JordanToujouse</Link>
+          <Link href="https://github.com/JordanToujouse">Github</Link>
+          <Link href="https://www.linkedin.com/in/jordan-toujouse-8b5b11233/">LinkedIn</Link>
+        </div>
+      </Footer>
     </div>
   );
 }

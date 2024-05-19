@@ -2,6 +2,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "./sass/main.css"
 const inter = Inter({ subsets: ["latin"] });
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 export const metadata = {
   title: "Jordan Toujouse Portfolio",
