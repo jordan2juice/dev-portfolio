@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
@@ -77,8 +78,12 @@ export default function HeroSection() {
                 </a>
               </button>
               <div className="flex gap-4">
-                <AwesomeButton type="primary">Contact Me</AwesomeButton>
-                <AwesomeButton type="primary">Download Resume</AwesomeButton>
+                <Link href={"./contact"}>
+                  <AwesomeButton type="primary">Contact Me</AwesomeButton>
+                </Link>
+                <a href="https://drive.google.com/file/d/1b5RYJPmvXUqU67URqRAaii-x3L5XKGQ_/view?usp=drive_link">
+                  <AwesomeButton type="primary">Resume</AwesomeButton>
+                </a>
               </div>
             </div>
             <div>
