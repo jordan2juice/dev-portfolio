@@ -7,20 +7,6 @@ import "react-awesome-button/dist/styles.css";
 import { TypeAnimation } from "react-type-animation";
 
 export default function HeroSection() {
-  const [showButton, setShowButton] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setShowButton(true);
-        setShowText(true);
-      } else {
-        setShowButton(false);
-        setShowText(false);
-      }
-    };
-  });
-
   return (
     <div className="container bg-white p-14 " id="hero-section">
       <div>

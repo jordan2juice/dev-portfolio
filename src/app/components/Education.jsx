@@ -7,9 +7,7 @@ export default function Education() {
   return (
     <div id="education" className=" container m-2 p-16">
       <h2 className="text-2xl font-bold text-cyan-700 mb-2 p-4">Education</h2>
-      <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center p-4"
-      >
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center p-4">
         <Card className="border-2 border-teal-700 rounded-xl p-4">
           <CardBody>
             <CardHeader className="bg-slate-200 text-center p-2">
