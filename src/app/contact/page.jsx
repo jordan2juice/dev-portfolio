@@ -43,7 +43,7 @@ export default function Page() {
         <h1>Contact</h1>
         <p>Send me an email!</p>
         <div className="flex flex-wrap justify-center items-center">
-          <form ref={form} onSubmit={sendEmail} className="w-full max-w-lg">
+          <form ref={form} onSubmit={sendEmail} className="w-full max-w-lg p-4">
             <label htmlFor="user_name">
               Name
               <input
@@ -87,21 +87,26 @@ export default function Page() {
               Submit
             </button>
           </form>
-          <div>
+          <div className="w-full max-w-lg p-4">
             <p>For more information, please contact me at:jtoujo1@gmail.com</p>
             <p>Or, you can call me at: 123-456-7890 (504) 495-2295</p>
-            <a href="https://github.com/JordanToujouse">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                alt="Github"
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/jordan-toujouse-8b5b11233/">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-                alt="LinkedIn"
-              />
-            </a>
+            <p>Or, you can visit my GitHub and LinkedIn profiles:</p>
+            <div className="flex items-center gap-4">
+              <a href="https://github.com/JordanToujouse">
+                <img
+                  className="w-10 h-10"
+                  src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                  alt="Github"
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/jordan-toujouse-8b5b11233/">
+                <img
+                  className="w-10 h-10"
+                  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                  alt="LinkedIn"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>

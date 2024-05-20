@@ -6,7 +6,7 @@ import React from "react";
 export default function Header() {
   return (
     <div>
-      <div className="bg-white text-black p-2 flex justify-between items-center">
+      <div className="bg-white text-black p-2 flex justify-between items-center container">
         <h1 className="mt-1 text-3xl font-bold text-cyan-700">
           Jordan Toujouse
         </h1>
