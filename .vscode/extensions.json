@@ -1,5 +1,3 @@
 {
-  "recommendations": [
-    "blackboxapp.blackbox"
-  ]
+  "recommendations": ["blackboxapp.blackbox", "codeium.codeium"]
 }
