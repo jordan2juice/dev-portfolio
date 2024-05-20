@@ -36,8 +36,8 @@ export default function Page() {
         <div>
           <h3>Live Demo:</h3>
           <p>
-            <a href="https://jordan2juice.github.io/info-page/">
-              https://jordan2juice.github.io/info-page/
+            <a href="https://jt-news-app.netlify.app//">
+              https://jt-news-app.netlify.app/
             </a>
           </p>
         </div>
