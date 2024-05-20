@@ -102,6 +102,7 @@ export default function Skills() {
                 window.location.href = "./contact";
               }}
             >
+              https://drive.google.com/file/d/1b5RYJPmvXUqU67URqRAaii-x3L5XKGQ_/view?usp=drive_link
               Contact
             </AwesomeButton>
           </div>
