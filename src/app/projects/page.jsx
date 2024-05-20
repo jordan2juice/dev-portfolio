@@ -8,6 +8,7 @@ export default function Page() {
       <div>
         <h1>Projects</h1>
         <h2>News & Social Web Application</h2>
+        <img src="/image.png" alt="news app" />
         <p>
           This site a web application is CRUD appilication that gets info from
           FireStore and uses Firebase for Authentication.{" "}
