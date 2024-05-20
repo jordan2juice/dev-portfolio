@@ -38,11 +38,7 @@ export default function Projects() {
 
         <Card className=" w-72 p-4 border-2 bg-white rounded-xl border-cyan-800 ">
           <Card.Body>
-            <img
-              src="/Tres Bien coffee website.jpg
-            "
-              alt="Project 2"
-            />
+            <img src="/Tres Bien coffee website.jpg" alt="Project 2" />
             <Card.Title>
               <h4>Tres Bien Coffee</h4>
             </Card.Title>

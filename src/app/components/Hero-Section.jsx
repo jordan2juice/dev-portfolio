@@ -73,12 +73,15 @@ export default function HeroSection() {
               </div>
             </div>
             <div>
-              <img src="/avatar.jpg" className=" h-96 shadow-lg rounded-full" />
+              <img
+                src="/avatar.jpg"
+                alt="avatars"
+                className=" h-96 shadow-lg rounded-full"
+              />
             </div>
           </div>
         </div>
       </div>
-      <div></div>
     </div>
   );
 }
