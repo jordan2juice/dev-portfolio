@@ -9,7 +9,9 @@ export default function Footer() {
       <Footer
         className="bg-gray-800 text-white p-4 flex justify-between items-center"
        >
-        <div>
+        <div
+          className="flex justify-between items-center text-white"
+        >
           <nav
             className="flex justify-between items-center"
             >
