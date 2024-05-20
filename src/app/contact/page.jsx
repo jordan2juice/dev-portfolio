@@ -3,6 +3,8 @@
 import React, { useRef, useState } from "react";
 
 import emailjs from "@emailjs/browser";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Page() {
   const form = useRef();
@@ -39,6 +41,7 @@ export default function Page() {
 
   return (
     <main>
+      <Header />
       <div className="container justify-center items-center p-4 bg-slate-200">
         <h1>Contact</h1>
         <p>Send me an email!</p>
@@ -110,6 +113,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
