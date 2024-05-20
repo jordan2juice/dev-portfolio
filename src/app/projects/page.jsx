@@ -72,7 +72,7 @@ export default function Page() {
           src="/Little Abby Flowers site.jpg"
           alt="Flowers"
         />
-        <h2>Little Abby's Flowers</h2>
+        <h2>Little Abby Flowers</h2>
         <p>
           This is a website mpchup design I did for my design portfolio. The
           theme was a flower shop based on my daughters name. She is bright and

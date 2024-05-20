@@ -56,7 +56,7 @@ export default function Projects() {
               alt="Little Abby Flowers"
             />
             <Card.Title>
-              <h4>Little Abby's Flowers</h4>
+              <h4>Little Abbys Flowers</h4>
             </Card.Title>
             <Card.Text>
               This is a website design moch-up that I did for a personel
