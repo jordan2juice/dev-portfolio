@@ -41,7 +41,7 @@ export default function Page() {
           <img className="mt-4 w-1/2" src="/image_2.png" alt="Food Home" />
           <img
             className="mt-4 w-1/2 shadow-lg"
-            src="image_3.png"
+            src="FoodRecipe.png"
             alt="Food Search page"
           />
           <p>

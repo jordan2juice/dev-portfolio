@@ -25,7 +25,7 @@ export default function Projects() {
         </Card>
         <Card className=" w-72 p-4 border-2 bg-white rounded-xl border-cyan-800 ">
           <Card.Body>
-            <img src="/image_2.png" alt="Food Recipe app" />
+            <img src="/FoodRecipe.png" alt="Food Recipe app" />
             <Card.Title>
               <h4>Food Recipe app</h4>
             </Card.Title>
